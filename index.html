@@ -20,9 +20,11 @@
             <tr>
                 <th scope="col">STI</th>
                 <th scope="col">Type</th>
+                <th scope="col">Vaccine?</th>
                 <th scope="col">Can be cured?</th>
                 <th scope="col">Can be treated but not cured?</th>
                 <th scope="col">Transmission</th>
+                <th scope="col">Yearly reported U.S. cases</th>
                 <th scope="col">Symptoms</th>
             </tr>
         </thead>
@@ -30,6 +32,7 @@
             <tr data-toggle="collapse" data-target="#chlamydia" class="accordion-toggle clickable">
                 <td>Chlamydia</td>
                 <td>Bacterial</td>
+                <td></td>
                 <td class="hasicon">
                     <i class="bi-capsule-pill" data-toggle="tooltip" title="Can be cured with antibiotics"></i>
                 </td>
@@ -37,12 +40,13 @@
                 <td class="hasicon">
                     <i class="bi-droplet" data-toggle="tooltip" title="Bodily fluids"></i>
                 </td>
+                <td class="hasicon"><a href="https://www.statista.com/statistics/626841/number-of-cases-of-chlamydia-in-the-us/">1,579,885</a></td>
                 <td>Often doesn't have symptoms</td>
             </tr>
             <tr>
-                <td colspan="6" class="hiddenRow">
+                <td colspan="8" class="hiddenRow">
                     <div id="chlamydia" class="accordion-body collapse p-3">
-                        <div class="elaboratedescription">Chlamydia is a bacterial infection that 3,000,000 Americans contract each year, the most common age group being 14-24 years old. However, it's easily curable with antibiotics. It often doesn't exhibit symptoms, which is why STI testing is important. Gone untreated, it can have negative long-term consequences. It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Thus, it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. It isn't spread through casual contact so you CAN'T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. </div>
+                        <div class="elaboratedescription">Chlamydia is the most commonly reported STI in the United States, with over 1.5 million cases being reported in 2020. The most common age group is 14-24 years old. However, it's easily curable with antibiotics. It often doesn't exhibit symptoms, which is why STI testing is important. Gone untreated, it can have negative long-term consequences. It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Thus, it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. It isn't spread through casual contact so you CAN'T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. </div>
                         <div class="elaboratedescription"><a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia</a></div>
                     </div>
                 </td>
@@ -51,19 +55,50 @@
             <tr data-toggle="collapse" data-target="#gonorrhea" class="accordion-toggle clickable">
                 <td>Gonorrhea</td>
                 <td>Bacterial</td>
+                <td></td>
                 <td class="hasicon"><i class="bi-capsule-pill" data-toggle="tooltip" title="Can be cured with antibiotics"></i></td>
                 <td></td>
                 <td class="hasicon"><i class="bi-droplet" data-toggle="tooltip" title="Bodily fluids"></i></td>
+                <td class="hasicon"><a href="https://www.statista.com/statistics/626800/number-of-cases-of-gonorrhea-in-us/">677,769</a></td>
                 <td>Often doesn't have symptoms</td>
             </tr>
             <tr>
-                <td colspan="6" class="hiddenRow">
+                <td colspan="8" class="hiddenRow">
                     <div id="gonorrhea" class="accordion-body collapse p-3">
                         <div class="elaboratedescription">
                             Gonorrhea is a bacterial infection that is common for teens and people in their 20s. It's easily curable with antibiotics, but it often doesn't exhibit symptoms which is why STI testing is important.  It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Thus, it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. It isn't spread through casual contact so you CAN'T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. 
                         </div>
                         <div class="elaboratedescription">
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr data-toggle="collapse" data-target="#hepatitisb" class="accordion-toggle clickable">
+                <td>Hepatitis B</td>
+                <td>Viral</td>
+                <td class="hasicon"><img src="./injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Easily preventable with vaccine but not curable"></td>
+                <td class="hasicon"></td>
+                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated, but can't be cured. Expand the row for more information."></i></td>
+                <td class="hasicon"><i class="bi-droplet-fill" data-toggle="tooltip" title="Bodily fluids and blood"></i></td>
+                <td class="hasicon">Expand Row:</td>
+                <td>Often doesn't have symptoms</td>
+            </tr>
+            <tr>
+                <td colspan="8" class="hiddenRow">
+                    <div id="hepatitisb" class="accordion-body collapse p-3">
+                        <div class="elaboratedescription">
+                            <b>Prevalence:</b> Estimated 850,000 people in the U.S. are living with hepatitis B, but only 25% of infected individuals are diagnosed.
+                            <br><br>
+                            <b>How it's spread:</b> Hepatitis B is really contagious-- it is transmitted through contact with semen, vaginal fluids, and blood, meaning that one can get it through vaginal, anal, or oral sex, sharing toothbrushes and razors, sharing needles for drugs, piercings, or tattoos, as well as getting it from their mother during birth. You CAN'T get it through sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or breastfeeding.
+                            <br><br>
+                            <b>Description:</b> Hepatitis B is an infection that can cause liver disease. Of hepatitis A, B, and C, it is the most common to be spread through sex. To protect yourself, you can get the hepatitis B vaccine and use condoms. There is no cure for hepatitis B, but 90% of adults who get hepatitis B make a full recovery (acute infection). However, about 1 in 20 adults who get hepatitis B become carriers, meaning they have a chronic infection and may continue to spread hepatitis B for the rest of their lives. Because of the toll it takes on your liver, about 1 in 5 people with chronic hepatitis B die from it. There are medicines you can take to treat chronic hepatitis, so talk with your doctor.
+                        </div>
+                        <div class="elaboratedescription">
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b</a><br>
+                            <a href="https://www.hepb.org/what-is-hepatitis-b/what-is-hepb/facts-and-figures/">https://www.hepb.org/what-is-hepatitis-b/what-is-hepb/facts-and-figures/</a><br>
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/how-do-i-get-treated-hepatitis-b">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/how-do-i-get-treated-hepatitis-b</a><br>
                         </div>
                     </div>
                 </td>
