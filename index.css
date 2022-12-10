@@ -1,0 +1,31 @@
+table {
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0);
+    width: 60% !important;
+    table-layout: fixed;
+    margin: 50px auto 50px auto;
+}
+
+th {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: #9FA0C3;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #AED9E0;
+}
+
+tr:nth-child(odd) {
+    background-color: #95bac0;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
