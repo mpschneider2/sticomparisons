@@ -18,14 +18,18 @@ td {
     padding: 5px;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #AED9E0;
 }
 
 tr:nth-child(odd) {
     background-color: #95bac0;
-}
+} */
 
 .hiddenRow {
     padding: 0 !important;
+}
+
+.elaboratedescription {
+    padding: 10px;
 }
