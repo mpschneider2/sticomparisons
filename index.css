@@ -24,6 +24,7 @@ th {
 
 tr.clickable {
     cursor: pointer;
+    background-color:#fafafe; 
 }
 
 tr.clickable:hover {
