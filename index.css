@@ -7,7 +7,7 @@ table {
     border-color: rgba(0, 0, 0, 0.267);
     width: 70% !important;
     table-layout: fixed;
-    margin: 50px auto 50px auto;
+    margin: 30px auto 20px auto;
     min-width: 600px !important;
     font-family: Roboto;
 }
@@ -71,4 +71,22 @@ tr:last-of-type td:first-of-type {
 }
 tr:last-of-type td:last-of-type {
     border-bottom-right-radius: 10px;
+}
+
+.moredotted {
+    color: #2d3644;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    border-bottom: 1px rgb(99, 99, 243) dotted
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;   
+}
+
+.topdescription {
+    width: 60%;
+    margin: 0 auto;
 }
