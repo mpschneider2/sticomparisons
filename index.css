@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400&display=swap');
 
+:root {
+    --color-primary: #9FA0C3;
+    --color-secondary: #ffffff;
+    --color-tertiary: #2D3047;
+    --color-highlight: rgba(255, 255, 255, 0.5);
+  }
+
 table {
     border-right: 1px solid;
     border-left: 1px solid;
@@ -18,7 +25,7 @@ th {
     padding: 5px;
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0);
-    background-color: #9FA0C3;
+    background-color: var(--color-primary);
     text-align: center;
     vertical-align: middle !important;
 }
@@ -72,7 +79,7 @@ th:last-of-type {
     color: #2d3644;
     text-decoration: none;
     margin: 0 0 0 0;
-    border-bottom: 1px rgb(99, 99, 243) dotted
+    border-bottom: 1px black dotted
 }
 
 h1 {
