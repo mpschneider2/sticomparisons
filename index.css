@@ -90,3 +90,15 @@ h1 {
 .tac {
     text-align: center;
 }
+
+th > a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.bolded {
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+}
