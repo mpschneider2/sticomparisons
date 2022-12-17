@@ -5,8 +5,10 @@
 - [X] Add a "Can be passed from mother to child during pregnancy/birth" section
 - [X] fix bold stuff
 - [X] write in chlamydia, gonorrhea, and other sections about the passing to child stuff
-- [ ] @Frances-- be more specific with the "360,000 cases each year". When I was doing one, I saw planned parenthood get a statistic wrong, so we really need to figure out whether that's global, the US, new cases? total?
+- [X] @Frances-- be more specific with the "360,000 cases each year". When I was doing one, I saw planned parenthood get a statistic wrong, so we really need to figure out whether that's global, the US, new cases? total?
 
-- [ ] For the   
+- [ ] Make accessible by phone
+- [ ] finish content
+- [ ] embed in soph health site?? (make embeddable) 
 - [ ] Make table sortable by column
 - [ ] fix grammar :(
