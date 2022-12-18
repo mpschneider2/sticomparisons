@@ -32,7 +32,8 @@ th {
 
 tr.clickable {
     cursor: pointer;
-    background-color:#fafafe; 
+    background-color:#fafafe;
+    height: 58px; 
 }
 
 tr.clickable:hover {
