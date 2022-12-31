@@ -4,7 +4,7 @@
 <head>
     <title>STI Comparison Infographic</title>
 
-    <link rel="icon" href="./file-earmark-spreadsheet.svg">
+    <link rel="icon" href="./images/file-earmark-spreadsheet.svg">
 
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
@@ -17,10 +17,11 @@
 
 <body>
     <h1 class="tac">STI Comparison Table</h1>
-    <p class="topdescription tac"><br>By Matthew Schneider and Frances Park</p>
+    <p class="topdescription tac">By Matthew Schneider and Frances Park</p>
     &nbsp;
-    <p class="topdescription">To use this page, you can hover over the icons to get a short description of what they mean in the context of the specific STI. If the column is empty, it means that the answer to the question is "No." Any text with a dotted underline means that there's more information to it that can be found by hovering. For an even more detailed summary, you can click the individual rows, and they will expand to show a write-up as well as sources. See any errors? Feel free to <a href="mailto:mpschneider2@gmail.com">email us</a> and we'll correct them!</p>
-
+    <p class="topdescription">Hover over the icons and any text with a dotted underline for a short explanation. For a more detailed summary, click on individual rows, and they will expand to show a write-up as well as sources. See any errors? Feel free to <a href="mailto:mpschneider2@gmail.com">email us</a> and we'll correct them!</p>
+    <br>
+    <p class="topdescription">Below, the difference between “treatable” and “curable” is that “curable” means that the infection can be eradicated with treatment. On the other hand, “treatable” means that the infection can be controlled and the symptoms treated, but it will recur without treatment. Some STIs are not curable with medicine, but for a portion of the population, they do go away by themselves.</p>
     <table class="table">
         <thead>
             <tr>
@@ -30,8 +31,8 @@
                 <th scope="col">Can be cured?</th>
                 <th scope="col">Can be treated but not cured?</th>
                 <th scope="col">Transmission</th>
-                <th scope="col"><a href="https://orwh.od.nih.gov/research/maternal-morbidity-and-mortality/information-for-women/sexually-transmitted-infections#:~:text=Some%20STIs%2C%20such%20as%20syphilis,infect%20the%20baby%20during%20delivery.">Can be passed from childbearing parent to infant?</a></th>
-                <th scope="col"><p data-toggle="tooltip" title="Because many STIs often don't exhibit symptoms, the number of reported cases is not representative of the number of people who have actually had those STIs." class="moredotted">Prevalence</p></th>
+                <th scope="col"><div data-toggle="tooltip" title="Can be passed to infant during pregnancy, childbirth, or breastfeeding?" class="moredotted"><a href="https://orwh.od.nih.gov/research/maternal-morbidity-and-mortality/information-for-women/sexually-transmitted-infections#:~:text=Some%20STIs%2C%20such%20as%20syphilis,infect%20the%20baby%20during%20delivery.">Can be passed to infant?</a></div></th>
+                <th scope="col"><p data-toggle="tooltip" title="Because many STIs often don’t exhibit symptoms, the number of reported cases is not representative of the number of people who have actually had those STIs." class="moredotted">Prevalence</p></th>
                 <th scope="col">Symptoms</th>
             </tr>
         </thead>
@@ -47,15 +48,24 @@
                 <td class="hasicon">
                     <i class="bi-droplet" data-toggle="tooltip" title="Bodily fluids (such as semen, pre-ejaculate, vaginal fluids)"></i>
                 </td>
-                <td class="hasicon"><img src="./baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
+                <td class="hasicon"><img src="./images/baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
                 <td class="hasicon"><a href="https://www.statista.com/statistics/626841/number-of-cases-of-chlamydia-in-the-us/">1,579,885</a> U.S. cases (2020)</td>
-                <td>Often doesn't have symptoms</td>
+                <td><p class="moredotted" data-toggle="tooltip" title="While there are often no symptoms, when present, they include: a burning sensation while peeing, and abnormal discharge from the penis/vagina">Often none</p></td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="chlamydia" class="accordion-body collapse p-3">
-                        <div class="elaboratedescription">Chlamydia is the most commonly reported STI in the United States, with over 1.5 million cases being reported in 2020. The most common age group is 14-24 years old. However, it's easily curable with antibiotics. It often doesn't exhibit symptoms, which is why STI testing is important. The few times there are symptoms, they are things like: a burning sensation while peeing, and abnormal discharge from the penis/vagina. Gone untreated, it can have negative long-term consequences, such as permanent damage to the female reproductive system. It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Thus, it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. It isn't spread through casual contact so you CAN'T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. </div>
-                        <div class="elaboratedescription"><a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia</a><br><a href="https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm">https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm</a></div>
+                        <div class="elaboratedescription">Chlamydia is the most commonly reported STI in the United States, with over 1.5 million cases being reported in 2020. 
+                            The most common age group is 14-24 years old. However, it’s easily curable with antibiotics. It often doesn’t exhibit symptoms, which is why STI testing is important. 
+                            The times there are symptoms, they are things like a burning sensation while peeing and abnormal discharge from the penis/vagina. 
+                            Gone untreated, it can have negative long-term consequences, such as serious infections and infertility, and it can lead to pelvic inflammatory disease (an infection of the female reproductive system). PID can cause scar tissue that blocks the fallopian tubes, ectopic pregnancy (pregnancy that occurs outside of the womb), infertility, and long-term pain in the pelvis and abdomen.
+                            <br><br> 
+                            Chlamydia is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Because of this, it is important to use barrier methods like condoms and dental dams any time when engaging in oral, vaginal, or anal sex. 
+                            It isn’t spread through casual contact, so you CAN’T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. </div>
+                        <div class="elaboratedescription">
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/chlamydia</a><br>
+                            <a href="https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm">https://www.cdc.gov/std/chlamydia/stdfact-chlamydia.htm</a>
+                        </div>
                     </div>
                 </td>
             </tr>
@@ -63,25 +73,30 @@
             <tr data-toggle="collapse" data-target="#genitalwarts" class="accordion-toggle clickable">
                 <td>Genital warts</td>
                 <td>Viral</td>
-                <td class="hasicon"><img src="./injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="HPV vaccine prevents most types of genital warts"></td>
+                <td class="hasicon"><img src="./images/injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="HPV vaccine prevents most types of genital warts"></td>
                 <td class="hasicon"></td>
                 <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Genital warts (the visible symptoms) can be treated by removal; an HPV vaccine can prevent most types of genital warts."></i></td>
                 <td class="hasicon">
                     <i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact"></i>
                 </td>
-                <td class="hasicon"><img src="./baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Genital warts can be passed to infant during vaginal childbirth"/></td>
-                <td class="hasicon">360,000 cases each year</td>
+                <td class="hasicon"><img src="./images/baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
+                <td class="hasicon"><a href="https://www.cdc.gov/std/hpv/stdfact-hpv.htm">360,000</a> yearly cases worldwide</td>
                 <td data-toggle="tooltip">None or bumps on genitals/anus</td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="genitalwarts" class="accordion-body collapse p-3">
-                        <div class="elaboratedescription">Genital warts are an infection caused by some types of HPV (human papillomavirus). They do NOT cause cancer if left untreated, unlike other types of HPV. They are spread through skin-to-skin contact with someone who’s infected — often during vaginal, anal, and oral sex — and can be spread even when there are no symptoms. Symptoms may never appear, or they may appear between a few weeks to a few years after sexual contact with an infected person, so it can be difficult to track when and from whom you got the infection. If they do appear, genital warts can show up as small whitish or skin-colored bumps on the genitals or anus.
+                        <div class="elaboratedescription">Genital warts are an infection caused by some types of HPV (human papillomavirus). They do NOT cause cancer or other health problems if left untreated, unlike other types of HPV, but they can continue to grow in size or number. 
+                            They are spread through skin-to-skin contact with someone who’s infected — often during vaginal, anal, and oral sex — and can be spread even when there are no symptoms. 
+                            Condoms and dental dams can help prevent infection. If there are visible warts, however, condoms and dental dams will not provide reliable protection — they might not cover all the warts.
+                            Symptoms may never appear, or they may appear between a few weeks to a few years after sexual contact with an infected person, so it can be difficult to track when and from whom you got the infection. 
+                            If they do appear, genital warts can show up as small whitish or skin-colored bumps on the genitals or anus.
                             <br><br>
                             Genital warts can be treated by removing them, and there is also an HPV vaccine that can prevent most types of genital warts.
                         </div>
                         <div class="elaboratedescription">
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/genital-warts">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/genital-warts</a><br>
+                            <a href="https://www.cdc.gov/std/hpv/stdfact-hpv.htm">https://www.cdc.gov/std/hpv/stdfact-hpv.htm</a>
                         </div>
                     </div>
                 </td>
@@ -94,18 +109,22 @@
                 <td class="hasicon"><i class="bi-capsule" data-toggle="tooltip" title="Can be cured with antibiotics"></i></td>
                 <td></td>
                 <td class="hasicon"><i class="bi-droplet" data-toggle="tooltip" title="Bodily fluids (such as semen, pre-ejaculate, vaginal fluids)"></i></td>
-                <td class="hasicon"><img src="./baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
+                <td class="hasicon"><img src="./images/baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
                 <td class="hasicon"><a href="https://www.statista.com/statistics/626800/number-of-cases-of-gonorrhea-in-us/">677,769</a> U.S. cases (2020)</td>
-                <td>Often doesn't have symptoms</td>
+                <td><p class="moredotted" data-toggle="tooltip" title="While there are often no symptoms, when present, they include: a burning sensation while peeing, abnormal discharge from the penis/vagina, and bleeding between periods.">Often none</p></td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="gonorrhea" class="accordion-body collapse p-3">
                         <div class="elaboratedescription">
-                            Gonorrhea is a bacterial infection that is common for teens and people in their 20s. Gone untreated, it can lead to serious health problems like infertility. It often doesn’t exhibit symptoms, but, luckily, It's easily curable with antibiotics once one knows they do have it, which is why STI testing is important. The few times there are symptoms, they are things like: a burning sensation while peeing, abnormal discharge from the penis/vagina, and bleeding between periods. It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids. Thus, it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. It isn't spread through casual contact so you CAN'T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. 
+                            Gonorrhea is a bacterial infection that is common for teens and people in their 20s. Gone untreated, it can lead to serious health problems like infertility. 
+                            It often doesn’t exhibit symptoms, but, luckily, It’s easily curable with antibiotics once one knows they do have it, which is why STI testing is important. 
+                            The times there are symptoms, they are things like: a burning sensation while peeing, abnormal discharge from the penis/vagina, and bleeding between periods. 
+                            It is passed through the exchange of bodily fluids like semen, pre-ejaculate, and vaginal fluids, so it is important to use barrier methods like condoms and dental dams any time one engages in oral, vaginal, or anal sex. 
+                            It isn’t spread through casual contact, so you CAN’T get it from sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or sitting on the toilet. 
                         </div>
                         <div class="elaboratedescription">
-                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea</a>
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea</a><br>
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea/what-are-symptoms-gonorrhea">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/gonorrhea/what-are-symptoms-gonorrhea</a>
                         </div>
                     </div>
@@ -115,13 +134,13 @@
             <tr data-toggle="collapse" data-target="#hepatitisb" class="accordion-toggle clickable">
                 <td>Hepatitis B</td>
                 <td>Viral</td>
-                <td class="hasicon"><img src="./injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Easily preventable with vaccine but not curable"></td>
+                <td class="hasicon"><img src="./images/injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Easily preventable with vaccine but not curable"></td>
                 <td class="hasicon"></td>
-                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated, but can't be cured. Expand the row for more information."></i></td>
+                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated, but can’t be cured. Expand the row for more information."></i></td>
                 <td class="hasicon"><i class="bi-droplet-fill" data-toggle="tooltip" title="Bodily fluids (such as semen, pre-ejaculate, vaginal fluids) and blood"></i></td>
-                <td class="hasicon"><img src="./baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during childbirth"/></td>
-                <td class="hasicon">Expand Row:</td>
-                <td>Often doesn't have symptoms</td>
+                <td class="hasicon"><img src="./images/baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during childbirth"/></td>
+                <td class="hasicon"><p data-toggle="tooltip" class="moredotted" title="Only 25% of people with Hepatitis B actually get diagnosed, but the estimated number of people in the US who have it is 850,000 people">850,000 chronic U.S. infections</p></td>
+                <td>Often none (early stages)</td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
@@ -129,13 +148,14 @@
                         <div class="elaboratedescription">
                             <span class="bolded">Prevalence:</span> Estimated 850,000 people in the U.S. are living with hepatitis B, but only 25% of infected individuals are diagnosed.
                             <br><br>
-                            <span class="bolded">How it's spread:</span> Hepatitis B is really contagious-- it is transmitted through contact with semen, vaginal fluids, and blood, meaning that one can get it through vaginal, anal, or oral sex, sharing toothbrushes and razors, sharing needles for drugs, piercings, or tattoos, as well as getting it from their parent during birth. You CAN'T get it through sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or breastfeeding.
+                            <span class="bolded">How it’s spread:</span> Hepatitis B is really contagious — it is transmitted through contact with semen, vaginal fluids, and blood, meaning that one can get it through vaginal, anal, or oral sex, sharing toothbrushes and razors, sharing needles for drugs, piercings, or tattoos, as well as getting it from their parent during birth. You CAN’T get it through sharing food/drinks, kissing, hugging, holding hands, coughing, sneezing, or breastfeeding.
                             <br><br>
-                            <span class="bolded">Description:</span> Hepatitis B is an infection that can cause liver disease. Of hepatitis A, B, and C, it is the most common to be spread through sex. To protect yourself, you can get the hepatitis B vaccine and use condoms. There is no cure for hepatitis B, but 90% of adults who get hepatitis B make a full recovery (acute infection). However, about 1 in 20 adults who get hepatitis B become carriers, meaning they have a chronic infection and may continue to spread hepatitis B for the rest of their lives. Because of the toll it takes on your liver, about 1 in 5 people with chronic hepatitis B die from it. There are medicines you can take to treat chronic hepatitis, so talk with your doctor. While most of the time, there aren’t symptoms, common ones include: tiredness, belly pain, loss of appetite, nausea and vomiting, joint pain, headache, fever, hives, etc. When in doubt, get tested!
+                            <span class="bolded">Description:</span> Hepatitis B is an infection that can cause liver disease. Of hepatitis A, B, and C, it is the most common to be spread through sex. To protect yourself, you can get the hepatitis B vaccine and use condoms. There is no cure for hepatitis B, but 90% of adults who get hepatitis B make a full recovery (acute infection). However, about 1 in 20 adults who get hepatitis B become carriers, meaning they have a chronic infection and may continue to spread hepatitis B for the rest of their lives. Because of the toll it takes on your liver, about 1 in 5 people with chronic hepatitis B die from it. There are medicines you can take to treat chronic hepatitis, so talk with your doctor. While most of the time, there aren’t symptoms, when present, they include: tiredness, belly pain, loss of appetite, nausea and vomiting, joint pain, headache, fever, hives, etc. When in doubt, get tested!
                         </div>
                         <div class="elaboratedescription">
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b</a><br>
                             <a href="https://www.hepb.org/what-is-hepatitis-b/what-is-hepb/facts-and-figures/">https://www.hepb.org/what-is-hepatitis-b/what-is-hepb/facts-and-figures/</a><br>
+                            <a href="https://www.hhs.gov/hepatitis/learn-about-viral-hepatitis/data-and-trends/index.html">https://www.hhs.gov/hepatitis/learn-about-viral-hepatitis/data-and-trends/index.html</a><br>
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/how-do-i-get-treated-hepatitis-b">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/how-do-i-get-treated-hepatitis-b</a><br>
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/what-are-signs-and-symptoms-hepatitis-b">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hepatitis-b/what-are-signs-and-symptoms-hepatitis-b</a>
                         </div>
@@ -148,21 +168,38 @@
                 <td>Viral</td>
                 <td class="hasicon"></td>
                 <td class="hasicon"></td>
-                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated with herpes medicine, and symptoms can be treated with regular pain-relief methods, but there is no cure."></i></td>
+                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated with antiviral medication which reduces symptoms as well as the chances of spreading it to others. Symptoms can be treated with regular pain-relief methods, but there is no cure."></i></td>
                 <td class="hasicon"><i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact"></i></td>
-                <td class="hasicon"><img src="./baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Genital Herpes can be passed to infant during vaginal childbirth"/></td>
+                <td class="hasicon"><img src="./images/baby-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to infant during vaginal childbirth"/></td>
                 <td class="hasicon"><p class="moredotted" data-toggle="tooltip" title="1 in 2 people in the US have oral herpes, 1 in 6 for genital herpes">1 in 2 to 1 in 6 people</p></td>
-                <td class=""><p class="moredotted" data-toggle="tooltip" title="Sometimes there are no symptoms, but other times the symptoms include: sores on the genitals/mouth">Often doesn't have symptoms</p></td>
+                <td class=""><p class="moredotted" data-toggle="tooltip" title="Sometimes there are no symptoms, but other times the symptoms include: sores on the genitals/mouth">Often none</p></td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="herpes" class="accordion-body collapse p-3">
                         <div class="elaboratedescription">
-                            While these symptoms are common, most of the time, there are no symptoms, meaning people don't know that they have it. It's a very common infection that stays in your body for life, so more than half of Americans have oral herpes and about 1 in 6 Americans has genital herpes. It is spread through skin-to-skin contact with infected areas, often during vaginal, oral, and anal sex, as well as kissing. Unfortunately, this also means that a pregnant person can pass genital herpes to a baby during vaginal childbirth, but that's rare. Herpes is most contagious when sores are open and wet because the blister fluid easily spreads the virus (but it is still contagious even when one doesn't have sores). Using condoms can help reduce the risk of giving or getting herpes. You can't get herpes from hugging, holding hands, coughing, sneezing, or sitting on toilet seats, as the virus dies quickly outside the body. While it can’t be cured, it can certainly be treated and managed. Besides herpes medicine, treatments for outbreaks include the generic pain-relief methods such as: taking a warm bath, keeping the genital area dry, wearing soft, loose clothes, using an icepack on sores, and taking aspirin/acetaminophen/ibuprofen.
+                            Herpes is a very common infection that usually doesn’t have symptoms, so people often don’t know that they have it. 
+                            When there are symptoms, herpes shows up as painful or itchy blisters or sores on infected areas (commonly the genitals or mouth) in outbreaks that come and go. 
+                            Herpes stays in your body for life, so more than half of Americans have oral herpes, and about 1 in 6 Americans has genital herpes. 
+                            It is spread through skin-to-skin contact with infected areas, often during vaginal, oral, and anal sex, as well as kissing. 
+                            While a rare form of transmission, this also means that a pregnant person can pass genital herpes to a baby during vaginal childbirth. 
+                            Herpes is most contagious when sores are open and wet because the blister fluid easily spreads the virus (but it is still contagious even when one doesn’t have sores). 
+                            Using condoms can help reduce the risk of giving or getting herpes.
+                            <br><br>
+                            You can’t get herpes from hugging, holding hands, coughing, sneezing, or sitting on toilet seats, as the virus dies quickly outside the body. 
+                            While it can’t be cured, it can be treated using medicine that prevents and shortens outbreaks, which reduces the likelihood of spreading to others. 
+                            Additional treatments for managing outbreaks include generic pain-relief methods, such as taking a warm bath, keeping the genital area dry, wearing soft, loose clothes, using an icepack on sores, and taking aspirin, acetaminophen, or ibuprofen. 
+                            Gone untreated, sores will remain and herpes can continue to be spread to others, as well as to other parts of the body, such as the eyes. 
+                            If one does happen to touch the sores or fluid from the sores, they should wash their hands and other areas of contact as soon as possible to prevent transmission.
+                            <br><br>
+                            Due to the fact that herpes causes sores/breaks in the skin around the mouth, vagina, and rectum, it increases the risk of being infected by HIV. 
+                            Having both herpes and HIV increases the risk of transmitting HIV to an HIV-negative partner. 
                         </div>
                         <div class="elaboratedescription">
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes</a><br>
-                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes/how-do-i-get-treatment-for-herpes">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes/how-do-i-get-treatment-for-herpes</a>
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes/how-do-i-get-treatment-for-herpes">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes/how-do-i-get-treatment-for-herpes</a><br>
+                            <a href="https://www.cdc.gov/std/herpes/treatment.htm">https://www.cdc.gov/std/herpes/treatment.htm</a><br>
+                            <a href="https://www.cdc.gov/std/herpes/stdfact-herpes.htm">https://www.cdc.gov/std/herpes/stdfact-herpes.htm</a>
                         </div>
                     </div>
                 </td>
@@ -173,27 +210,27 @@
                 <td>Viral</td>
                 <td class="hasicon"></td>
                 <td class="hasicon"></td>
-                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="PEP/ART (lower chances of getting infected after exposure; lower the amount of the virus in your body and helps slow down progression to AIDS)"></i></td>
+                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Can be treated with PEP/ART (lower chances of getting infected after exposure; lower the amount of the virus in your body and helps slow down progression to AIDS)"></i></td>
                 <td class="hasicon">
-                    <i class="bi-people" data-toggle="tooltip" title="Bodily fluids and blood (but not saliva)"></i>
+                    <i class="bi-droplet-fill" data-toggle="tooltip" title="Bodily fluids and blood (but not saliva)"></i>
                 </td>
-                <td class="hasicon"><div data-toggle="tooltip" title="Can be spread during pregnancy, delivery, AND breastfeeding (perinatal transmission)"><img src="./baby-svgrepo-com.svg" height="30px"/><img src="./fetus-svgrepo-com.svg" height="30px"/><img style="margin-left: -5px;" src="./baby-bottle-outline-svgrepo-com.svg" height="25px"/></div></td>
-                <td class="hasicon">38,000+ new infections every year</td>
+                <td class="hasicon"><div data-toggle="tooltip" class="moredotted" title="Can be spread during delivery, pregnancy, AND breastfeeding (perinatal transmission)"><img src="./images/baby-svgrepo-com.svg" height="30px"/><img src="./images/fetus-svgrepo-com.svg" height="30px"/><img style="margin-left: -5px;" src="./images/baby-bottle-outline-svgrepo-com.svg" height="25px"/></div></td>
+                <td class="hasicon">About <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hiv-aids">1,100,000</a> U.S. infections</div></td>
                 <td data-toggle="tooltip">Flu-like symptoms right after infection</td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="hiv" class="accordion-body collapse p-3">
-                        <div class="elaboratedescription">"HIV (human immunodeficiency virus) is a virus that breaks down cells in your immune system, making it harder for your body to fight off diseases that normally aren’t a problem. As a result, infections that wouldn’t usually be a concern can instead make you really sick or even kill you.<br /><br />
-                            How it’s spread: HIV is carried in semen, vaginal fluids, anal mucus, blood, and breast milk. It can be spread through vaginal or anal sex, contact with needles or syringes with HIV-infected blood, and any other way HIV-infected blood, semen, or vaginal fluids could enter open cuts or sores on your body. HIV is NOT spread through saliva or casual contact, and you also can’t get HIV from a toilet seat.<br /><br />
-                            Symptoms: Apart from flu-like symptoms (fever, aches, feeling sick) 2-4 weeks after infection, HIV often doesn’t have symptoms. Once it progresses to the later stage of HIV (AIDS), symptoms can include sore throat, fever, chills, rash, night sweats, muscle aches, fatigue, swollen lymph nodes, and mouth ulcers.<br /><br />
-                            Treatment and prevention: Treatment of HIV is a combination of medicines called antiretroviral therapy that slows down the effects of HIV and can also lower (or even stop) your chances of spreading it. PEP is a series of pills that use ART medications to lower your chances of getting HIV if you take it very soon after you’ve been exposed (within 72 hours, or 3 days). Ways to prevent HIV include taking PrEP or avoiding “high risk” sexual activities.<br /><br />
-                            What is AIDS? How is it different from HIV?<br /><br />
+                        <div class="elaboratedescription">HIV (human immunodeficiency virus) is a virus that breaks down cells in your immune system, making it harder for your body to fight off diseases that normally aren’t a problem. As a result, infections that wouldn’t usually be a concern can instead make you really sick or even kill you.<br><br>
+                            <span class="bolded">How it’s spread:</span> HIV is carried in semen, vaginal fluids, anal mucus, blood, and breast milk. It can be spread through vaginal or anal sex, contact with needles or syringes with HIV-infected blood, and any other way HIV-infected blood, semen, or vaginal fluids could enter open cuts or sores on your body. HIV is NOT spread through saliva or casual contact, and you also can’t get HIV from a toilet seat.<br><br>
+                            <span class="bolded">Symptoms:</span> Apart from flu-like symptoms (fever, aches, feeling sick) 2-4 weeks after infection, HIV often doesn’t have symptoms. Once it progresses to the later stage of HIV (AIDS), symptoms can include sore throat, fever, chills, rash, night sweats, muscle aches, fatigue, swollen lymph nodes, and mouth ulcers.<br><br>
+                            <span class="bolded">Treatment and prevention:</span> Treatment of HIV is a combination of medicines called antiretroviral therapy that slows down the effects of HIV and can also lower (or even stop) your chances of spreading it. PEP is a series of pills that use ART medications to lower your chances of getting HIV if you take it very soon after you’ve been exposed (within 72 hours, or 3 days). Ways to prevent HIV include taking PrEP or avoiding “high risk” sexual activities.<br><br>
+                            <span class="bolded">What is AIDS? How is it different from HIV?</span><br>
                             AIDS (Acquired Immune Deficiency Syndrome) is a stage of HIV that eventually leads to death. It occurs after HIV has destroyed too many CD4 cells, which are cells in the immune system that activate other immune cells to fight off the infection. It usually takes around 10 years for a person with untreated HIV to develop AIDS, but ART treatment can slow the damage of HIV, preventing AIDS from developing for several decades.
                         </div>
                         <div class="elaboratedescription">
                             <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hiv-aids">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hiv-aids</a><br>
-                            <a href="https://www.britannica.com/science/helper-T-cell">https://www.britannica.com/science/helper-T-cell</a><br>
+                            <a href="https://www.britannica.com/science/helper-T-cell">https://www.britannica.com/science/helper-T-cell</a>
                         </div>
                     </div>
                 </td>
@@ -202,13 +239,13 @@
             <tr data-toggle="collapse" data-target="#hpv" class="accordion-toggle clickable">
                 <td>HPV</td>
                 <td>Viral</td>
-                <td class="hasicon"><img src="./injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="There are vaccines for some of (but not all of) the 200+ types of HPV"></td>
+                <td class="hasicon"><img src="./images/injecting-syringe-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="There are vaccines for some of (but not all of) the 200+ types of HPV"></td>
                 <td class="hasicon"></td>
-                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="The symptoms such as cancer and genital warts can be treated, but the underlying virus can't be."></i></td>
+                <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="The symptoms such as cancer and genital warts can be treated, but the underlying virus can’t be."></i></td>
                 <td class="hasicon"><i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact"></i></td>
-                <td class="hasicon"></td>
+                <td class="hasicon">Extremely Unlikely</td>
                 <td class="hasicon"><p class="moredotted" data-toggle="tooltip" title="Due to its lack of symptoms, most sexually-active people have contracted it at some point in their lives, even if it went unnoticed.">Most people have had it</p></td>
-                <td class=""><p class="moredotted" data-toggle="tooltip" title="Though there usually aren't symptoms, when there are, it is usually: genital warts or cervical cancer, both of which can be treated.">Often doesn't have symptoms</p></td>
+                <td class=""><p class="moredotted" data-toggle="tooltip" title="Though there usually aren’t symptoms, when there are, it is usually: genital warts or cervical cancer, both of which can be treated.">Often none</p></td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
@@ -218,21 +255,12 @@
 
                         </div>
                         <div class="elaboratedescription">
-                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hpv">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes</a></a><br>
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/hpv">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/herpes</a><br>
                             <a href="https://www.cdc.gov/std/hpv/treatment.htm">https://www.cdc.gov/std/hpv/treatment.htm</a>
                         </div>
                     </div>
                 </td>
             </tr>
-
-
-
-
-
-
-
-
-
 
             <tr data-toggle="collapse" data-target="#molluscumcontagiosum" class="accordion-toggle clickable">
                 <td>Molluscum contagiosum</td>
@@ -241,39 +269,103 @@
                 <td class="hasicon"></td>
                 <td class="hasicon"><i class="bi-check2" data-toggle="tooltip" title="Bumps can be removed to prevent spreading the infection"></i></td>
                 <td class="hasicon"><i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact and contact with contaminated objects (often towels and clothing)"></i></td>
-                <td class="hasicon"><div data-toggle="tooltip" title="Can spread through breastfeeding if there is contact with infected skin"><img class="moredotted" style="margin-left: -5px; padding-bottom: 5px;" src="./baby-bottle-outline-svgrepo-com.svg" height="31px"/></div></td>
-                <td class="hasicon"><p data-toggle="tooltip">Little data on prevalence</p></td>
-                <td class=""><p data-toggle="tooltip">Small, hard bumps on skin</p></td>
+                <td class="hasicon"><div data-toggle="tooltip" title="Can spread through breastfeeding if there is contact with infected skin"><img class="moredotted" style="margin-left: -5px; padding-bottom: 5px;" src="./images/baby-bottle-outline-svgrepo-com.svg" height="31px"/></div></td>
+                <td class="hasicon">Little data on prevalence</td>
+                <td class="">Small, hard bumps on skin</td>
             </tr>
             <tr>
                 <td colspan="9" class="hiddenRow">
                     <div id="molluscumcontagiosum" class="accordion-body collapse p-3">
                         <div class="elaboratedescription">
-                            Molluscum contagiosum is a viral infection that causes small bumps on the face, neck, arms, stomach, legs, or genitals. Molluscum contagiosum is spread through close contact with someone who has it — during sex or from touching clothes, towels, or toys. Both adults and kids can get it, and it’s also possible to spread it to other parts of your body by touching or scratching the bumps. Molluscum contagiosum bumps usually go away by themselves, or a doctor can remove them. Molluscum contagiosum is spread through skin-to-skin contact, so the best way to avoid it is to not have sex or skin-to-skin contact with someone who has it.
+                            Molluscum contagiosum is a viral infection that causes small bumps on the face, neck, arms, stomach, legs, or genitals. 
+                            Molluscum contagiosum is spread through close contact with someone who has it — during sex or from touching clothes, towels, or toys. 
+                            Both adults and kids can get it, and it’s also possible to spread it to other parts of your body by touching or scratching the bumps. 
+                            Molluscum contagiosum bumps usually go away by themselves, or a doctor can prescribe a medicated cream or remove them for you using different methods (freezing, draining, or laser removal).
+                            Molluscum contagiosum is spread through skin-to-skin contact, so using a condom does NOT prevent it; because of this, the best way to avoid it is to not have sex or skin-to-skin contact with someone who has it. 
+                            There aren’t long-term effects, but a secondary infection caused by bacteria can be a significant problem in people with HIV/AIDS or other immunocompromised people.
 
                         </div>
                         <div class="elaboratedescription">
-                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/molluscum-contagiosum">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/molluscum-contagiosum</a></a><br>
-                            <a href="https://www.cdc.gov/poxvirus/molluscum-contagiosum/index.html">https://www.cdc.gov/poxvirus/molluscum-contagiosum/index.html</a>
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/molluscum-contagiosum">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/molluscum-contagiosum</a><br>
+                            <a href="https://www.cdc.gov/poxvirus/molluscum-contagiosum/index.html">https://www.cdc.gov/poxvirus/molluscum-contagiosum/index.html</a><br>
+                            <a href="https://www.cdc.gov/poxvirus/molluscum-contagiosum/long-term-effects.html">https://www.cdc.gov/poxvirus/molluscum-contagiosum/long-term-effects.html</a>
                         </div>
                     </div>
                 </td>
             </tr>
-           
+         
+            <tr data-toggle="collapse" data-target="#pubiclice" class="accordion-toggle clickable" style="min-height:57px;">
+                <td>Pubic lice</td>
+                <td>Parasitic</td>
+                <td class="hasicon"></td>
+                <td class="hasicon"><i class="bi-prescription2" data-toggle="tooltip" title="Can be cured with over-the-counter medicines"></td>
+                <td class="hasicon"></td>
+                <td class="hasicon"><i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact with infected areas"></i></td>
+                <td class="hasicon"></td>
+                <td class="hasicon">2% of adults</td>
+                <td class="">Itching</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="hiddenRow">
+                    <div id="pubiclice" class="accordion-body collapse p-3">
+                        <div class="elaboratedescription">
+                            Pubic lice, also commonly referred to as “crabs,” are small parasites that live on coarse hair (often near your genitals, but sometimes on eyelashes, underarm hair, or on other coarse hair) and feed on your blood. They are spread during sexual contact or other kinds of close, 
+                            personal contact; they can also be spread through an infected person’s clothes, towels, or bed. They do NOT spread through quick, casual touching, like hugs, and it’s extremely 
+                            rare to get crabs from a toilet seat. Using a condom does NOT prevent a pubic lice infection. They cause lots of itching, but are usually pretty easy to get rid of, and 
+                            treatment is often sold over-the-counter in gel, shampoo, liquid, or foam form. If not treated, they can cause discolored spots in infected areas, skin infections (from scratching), and — if the crabs are living in your eyelashes or eyebrows — eye irritation from rubbing your eyes.
+    
+                        </div>
+                        <div class="elaboratedescription">
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/pubic-lice">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/pubic-lice</a><br>
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/33811771/">https://pubmed.ncbi.nlm.nih.gov/33811771/</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
 
+
+            <tr data-toggle="collapse" data-target="#scabies" class="accordion-toggle clickable">
+                <td>Scabies</td>
+                <td>Parasitic</td>
+                <td class="hasicon"></td>
+                <td class="hasicon"><i class="bi-prescription2" data-toggle="tooltip" title="Can be cured with prescribed pills or creams (parasites will be gone)"></i></td>
+                <td></td>
+                <td class="hasicon"><i class="bi-people" data-toggle="tooltip" title="Close skin-to-skin contact"></i></td>
+                <td class="hasicon"><div data-toggle="tooltip" title="Can spread through breastfeeding if there is contact with infected skin and/or infected clothing"><img class="moredotted" style="margin-left: -5px; padding-bottom: 5px;" src="./images/baby-bottle-outline-svgrepo-com.svg" height="31px"/></div></td>
+                <td class="hasicon"><p class="moredotted" data-toggle="tooltip" title="Estimated over 200 million people are infected globally at any one time">Over 200 million people globally</p></td>
+                <td>Itching, rashes, irritation</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="hiddenRow">
+                    <div id="scabies" class="accordion-body collapse p-3">
+                        <div class="elaboratedescription">
+                            Scabies is a parasitic skin condition that is caused by scabies mites and spread through skin-to-skin contact. It causes rashes, irritation, and itching, but it can be cured with medicated creams or pills. 
+                            In addition to being in close contact with someone who has scabies, you can also get scabies from sharing clothes, towels, or bedding with an infected person; using a condom does NOT prevent scabies transmission. 
+                            It’s hard to get from quick, casual touching, or from toilet seats. If not treated, a secondary infection caused by bacteria can cause skin sores that lead to long-term effects, such as heart disease, chronic kidney disease, and sepsis (a life-threatening illness where the body injures its own tissues and organs in response to an infection).
+                        </div>
+                        <div class="elaboratedescription">
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/scabies">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/scabies</a>
+                        <br>
+                            <a href="https://www.who.int/news-room/fact-sheets/detail/scabies">https://www.who.int/news-room/fact-sheets/detail/scabies</a>
+                        <br>
+                            <a href="https://www.who.int/news-room/fact-sheets/detail/sepsis">https://www.who.int/news-room/fact-sheets/detail/sepsis</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
 
             <tr data-toggle="collapse" data-target="#syphilis" class="accordion-toggle clickable">
                 <td>Syphilis</td>
                 <td>Bacterial</td>
                 <td></td>
                 <td class="hasicon">
-                    <i class="bi-capsule" data-toggle="tooltip" title="Can be easily cured with antibiotics"></i>
+                    <i class="bi-capsule" data-toggle="tooltip" title="Can be cured with antibiotics"></i>
                 </td>
                 <td></td>
                 <td class="hasicon">
                     <i class="bi-people" data-toggle="tooltip" title="Skin-to-skin contact"></i>
                 </td>
-                <td class="hasicon"><img src="./fetus-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed from the childbearing parent to the child during pregnancy (congenital syphilis)."/></td>
+                <td class="hasicon"><img src="./images/fetus-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to the child during pregnancy (congenital syphilis)."/></td>
                 <td class="hasicon"><a href="https://www.statista.com/statistics/626774/number-of-cases-of-syphilis-in-the-us/">133,945</a> U.S. cases (2020)</td>
                 <td data-toggle="tooltip" title="Some symptoms include: rashes and sores. Since these are relatively mild, these usually go unnoticed or pass off as something else"><p class="moredotted">Very mild symptoms</p></td>
             </tr>
@@ -291,11 +383,45 @@
                 </td>
             </tr>
 
+            <tr data-toggle="collapse" data-target="#trichomoniasis" class="accordion-toggle clickable">
+                <td>Trichomoniasis</td>
+                <td>Parasitic</td>
+                <td></td>
+                <td class="hasicon"><i class="bi-capsule" data-toggle="tooltip" title="Can be cured with antibiotics"></i></td>
+                <td></td>
+                <td class="hasicon">
+                    <i class="bi-droplet" data-toggle="tooltip" title="Sexual fluids (semen, pre-ejaculate, and vaginal fluids)"></i>
+                </td>
+                <td class="hasicon"><img src="./images/fetus-svgrepo-com.svg" height="30px" data-toggle="tooltip" title="Can be passed to the child during pregnancy"/></td>
+                <td><p class="hasicon moredotted" data-toggle="tooltip" title="2.6 million estimated cases in the U.S. at any given time">2.6 million cases in the U.S.</p></td>
+                <td><p class="moredotted" data-toggle="tooltip" title="Vaginitis: irritated vulva/vagina.">Usually none or vaginitis</p></td>
+            </tr>
+            <tr>
+                <td colspan="9" class="hiddenRow">
+                    <div id="trichomoniasis" class="accordion-body collapse p-3">
+                        <div class="elaboratedescription">Trichomoniasis (trich) is is a parasitic infection spread through sexual fluids (semen, pre-ejaculate, and vaginal fluids). 
+                            There usually aren’t any symptoms, but there can include vaginitis (irritated vulva or vagina), urethral infection, pain when peeing, and smelly discharge. 
+                            Trich is NOT spread during casual contact, and it is preventable by using condoms. Trich is the most common curable STI, and it can be cured using prescribed antibiotics. 
+                            <br><br>
+                            If pregnant people with trich don’t get treated, they are more likely to give birth prematurely (and the baby is more likely to be underweight). 
+                            For everyone, regardless of pregnancy, trich can make it easier to get or spread other sexually transmitted infections, including HIV.
+                        </div>
+                        <div class="elaboratedescription">
+                            <a href="https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/trichomoniasis">https://www.plannedparenthood.org/learn/stds-hiv-safer-sex/trichomoniasis</a><br>
+                            <a href="https://www.cdc.gov/std/statistics/prevalence-2020-at-a-glance.htm">https://www.cdc.gov/std/statistics/prevalence-2020-at-a-glance.htm</a><br>
+                            <a href="https://www.cdc.gov/std/trichomonas/the-facts/default.htm">https://www.cdc.gov/std/trichomonas/the-facts/default.htm</a><br>
+                            <a href="https://www.cdc.gov/std/trichomonas/stdfact-trichomoniasis.htm">https://www.cdc.gov/std/trichomonas/stdfact-trichomoniasis.htm</a>
+                            
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
         </tbody>
 
     </table>
 
-    <p class="tac">More content is slowly being added so check back later, and the list of STIs will be longer!</p>
+    <!-- <p class="tac">More content is slowly being added, so check back later and the list of STIs will be longer!</p> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

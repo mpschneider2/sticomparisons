@@ -32,7 +32,8 @@ th {
 
 tr.clickable {
     cursor: pointer;
-    background-color:#fafafe; 
+    background-color:#fafafe;
+    height: 58px; 
 }
 
 tr.clickable:hover {
@@ -83,14 +84,14 @@ th:last-of-type {
 }
 
 h1 {
-    margin: 0 auto;
+    margin: 5px auto;
     margin-top: 20px;   
     letter-spacing: -0.02em;
     font-family: Overpass;
 }
 
 .topdescription {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -98,14 +99,13 @@ h1 {
     text-align: center;
 }
 
-th > a {
+th > div > a {
     color: #333;
     font-weight: 400;
     text-decoration: underline;
 }
 
 .bolded {
-    font-weight: 500;
+    font-weight: bold;
     color: black;
-    text-decoration: underline;
 }
